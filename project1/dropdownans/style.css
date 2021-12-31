@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container h2 {
+  font-size: 30px;
+  text-align: center;
+  color: brown;
+  font-family: sans-serif;
+}
+.questions {
+  padding: 15px;
+}
+.ans1,.ans2,.ans3,.ans4 {
+  max-width: 450px;
+  padding: 15px 2px;
+}
+
+.Qsn1,.Qsn2,.Qsn3,.Qsn4{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  border: 1px dotted grey;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
